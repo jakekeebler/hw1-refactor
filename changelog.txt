@@ -1,0 +1,7 @@
+Lines of code in this changelog refer to the OLD index.html and style.css, which can be found in the OLD folder of this repository.
+
+lines 29, 36, 43 in index.html | lines 137-189: Redundant code that is split up. 
+Fix: change all old classes to IDs and put them under the class="what-we-do" in index.html, then refer to .what-we-do in style.css to save ~30 lines of code.
+
+lines 51-52, 59, 66 in index.html | lines 89-135 in style.css: Redundant code that is split up. 
+Fix: change all .benefit-[something] classes into IDs under the class="sub-benefits" in the index.html, then refer to the .sub-benefits class in style.css to save ~30 lines of code.
